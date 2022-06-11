@@ -28,6 +28,7 @@ check([L|T])->
     true=proplists:is_defined(name,L),
     true=proplists:is_defined(vsn,L),
     true=proplists:is_defined(gitpath,L),
+    true=proplists:is_defined(cmd,L),
     check(T).
 
    
