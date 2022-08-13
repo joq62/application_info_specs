@@ -1,0 +1,3 @@
+* add application id and app
+{app,common}
+{id,"common"}

@@ -1,5 +1,9 @@
 all:
-	rm -rf *~ *.beam
+	rm -rf *~ *.beam;
+	git add -f *;
+	git commit -m $(m);
+	git push;
+	echo Ok there you go!
 check:
 	rm -rf *~ *.beam;
 	erlc *.erl;
